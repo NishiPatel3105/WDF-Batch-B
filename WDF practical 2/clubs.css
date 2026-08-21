@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lavenderblush;
+    color: darkslategray;
+}
+header{
+    background-color: steelblue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+header h1{
+    margin: 0;
+    font-size: 36px;
+}
+nav{
+    background-color: slateblue;
+    text-align: center;
+    padding: 14px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 8px;
+    font-size: 16px;
+}
+nav a:hover{
+    color: gold;
+}
+.container{
+    text-align: center;
+    padding: 30px;
+}
+.clubs-box{
+    background-color: white;
+    width: 750px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px lightgray;
+}
+.clubs-box h1{
+    color: midnightblue;
+}
+.clubs-box h2{
+    color: steelblue;
+}
+table{
+    border-collapse: collapse;
+    width: 700px;
+    margin: 20px auto;
+}
+th{
+    background-color: thistle;
+    color: darkslategray;
+    padding: 12px;
+}
+td{
+    background-color: lavender;
+    padding: 12px;
+    border: 1px solid lightgray;
+}
+tr:hover td{
+    background-color: lavenderblush;
+}
+.benefits-box{
+    background-color: white;
+    width: 650px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px lightgray;
+}
+.benefits-box h2{
+    color: darkslateblue;
+}
+.benefits-box ul{
+    text-align: left;
+    display: inline-block;
+    line-height: 1.8;
+}
+.registration-box{
+    background-color: white;
+    width: 550px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px lightgray;
+}
+.registration-box h2{
+    color: slateblue;
+}
+label{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+input[type="text"],
+select{
+    width: 70%;
+    padding: 10px;
+    border: 1px solid lightsteelblue;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+input[type="submit"],
+input[type="reset"],
+button {
+    background-color: steelblue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 15px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+button:hover {
+    background-color: royalblue;
+}
+.home-box{
+    background-color: white;
+    width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px lightgray;
+}
+.home-box h2{
+    color: midnightblue;
+}

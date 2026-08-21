@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightcyan;
+    color: darkslategray;
+}
+header{
+    background-color: cadetblue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+header h1{
+    margin: 0;
+    font-size: 36px;
+}
+nav{
+    background-color: steelblue;
+    text-align: center;
+    padding: 14px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 8px;
+    font-size: 16px;
+}
+nav a:hover{
+    color: gold;
+}
+.container{
+    text-align: center;
+    padding: 30px;
+}
+.hostel-box{
+    background-color: white;
+    width: 650px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px lightgray;
+}
+.hostel-box h1{
+    color: darkslateblue;
+}
+.hostel-box h2{
+    color: cadetblue;
+}
+table{
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 600px;
+}
+
+th{
+    background-color: lightsteelblue;
+    color: darkslategray;
+    padding: 12px;
+}
+td{
+    background-color: aliceblue;
+    padding: 12px;
+    border: 1px solid lightgray;
+}
+.mess-box{
+    background-color: white;
+    width: 650px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px lightgray;
+}
+.mess-box h2{
+    color: teal;
+}
+.rules-box{
+    background-color: white;
+    width: 600px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px lightgray;
+}
+.rules-box h2{
+    color: darkcyan;
+}
+
+.rules-box ul{
+    text-align: left;
+    display: inline-block;
+    line-height: 1.8;
+}
+.clubs-box{
+    background-color: white;
+    width: 600px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px lightgray;
+}
+.clubs-box h2{
+    color: darkslateblue;
+}
+button{
+    background-color: cadetblue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+button:hover{
+    background-color: teal;
+}

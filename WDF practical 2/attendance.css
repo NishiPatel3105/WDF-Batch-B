@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: aliceblue;
+    color: darkslategray;
+}
+header{
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+    padding: 14px;
+}
+header h1{
+    margin: 0;
+    font-size: 28px;
+}
+header p{
+    margin: 4px 0 0;
+    font-size: 13px;
+}
+nav{
+    background-color: midnightblue;
+    text-align: center;
+    padding: 12px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 6px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+nav a:hover{
+    color: lightyellow;
+    text-decoration: underline;
+}
+nav span{
+    color: lightsteelblue;
+}
+.attendance-intro{
+    text-align: center;
+    padding: 45px 20px 25px;
+}
+.attendance-intro h2{
+    color: darkslateblue;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.attendance-intro p{
+    font-size: 17px;
+}
+.attendance-card{
+    background-color: white;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 18px lightgray;
+}
+.card-title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.card-title h3{
+    color: darkslateblue;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+.card-title p{
+    color: slategray;
+    margin-top: 0;
+}
+.table-container{
+    overflow-x: auto;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+th{
+    background-color: lavender;
+    color: darkslateblue;
+    padding: 16px;
+    border: 1px solid thistle;
+}
+td{
+    padding: 16px;
+    border: 1px solid lightsteelblue;
+}
+tr:hover td{
+    background-color: honeydew;
+    transition: 0.3s;
+}
+
+.good,
+.warning,
+.excellent{
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+.good{
+    background-color: lightcyan;
+    color: teal;
+}
+.warning{
+    background-color: lemonchiffon;
+    color: darkgoldenrod;
+}
+.excellent{
+    background-color: honeydew;
+    color: seagreen;
+}
+.next-section{
+    text-align: center;
+    margin-top: 45px;
+    padding: 40px 20px;
+    border-top: 1px solid lightgray;
+}
+.next-section h2{
+    color: darkslateblue;
+}
+.next-section p{
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+.result-button{
+    display: inline-block;
+    background-color: slateblue;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 7px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.result-button:hover{
+    background-color: mediumslateblue;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px lightgray;
+}
+footer{
+    margin-top: 30px;
+    background-color: midnightblue;
+    color: white;
+    text-align: center;
+    padding: 18px;
+}
+footer p{
+    margin: 0;
+}
+@media screen and (max-width: 700px){
+    nav{
+        line-height: 30px;
+    }
+    nav span{
+        display: none;
+    }
+    nav a{
+        display: inline-block;
+        margin: 3px 5px;
+    }
+    .attendance-card{
+        width: 95%;
+        padding: 15px;
+    }
+    th,
+    td{
+        padding: 10px;
+        font-size: 14px;
+    }
+    .attendance-intro h2{
+        font-size: 26px;
+    }
+}
