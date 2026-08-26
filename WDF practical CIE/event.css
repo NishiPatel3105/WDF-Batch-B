@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lavenderblush;
+    color: darkslategray;
+}
+header{
+    background-color: steelblue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+header h1{
+    margin: 0;
+    font-size: 36px;
+}
+nav{
+    background-color: slateblue;
+    text-align: center;
+    padding: 14px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 8px;
+    font-size: 16px;
+}
+nav a:hover{
+    color: gold;
+}
+table{
+    border-collapse: collapse;
+    width: 700px;
+    margin: 20px auto;
+}
+th{
+    background-color: thistle;
+    color: darkslategray;
+    padding: 12px;
+}
+td{
+    background-color: lavender;
+    padding: 12px;
+    border: 1px solid lightgray;
+}
+tr:hover td{
+    background-color: lavenderblush;
+}
+.registration-box{
+    background-color: white;
+    width: 550px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px lightgray;
+}
+.registration-box h2{
+    color: slateblue;
+}
+label{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+input[type="text"],
+select{
+    width: 70%;
+    padding: 10px;
+    border: 1px solid lightsteelblue;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+input[type="submit"],
+button{
+    background-color: steelblue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 15px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+input[type="submit"]:hover,
+button:hover {
+    background-color: royalblue;
+}

@@ -1,0 +1,56 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    color: darkslategray;
+    margin: 0;
+}
+header{
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+    padding: 18px;
+}
+header h1{
+    margin: 0;
+    font-size: 32px;
+}
+
+header p{
+    margin:5px;
+}
+nav{
+    background-color: lightblue;
+    text-align: center;
+    padding: 14px;
+}
+form{
+    text-align:left;
+}
+form lable{
+    display:block;
+    margin-top:15px;
+    margin-bottom:6px;
+    font-weight:bold;
+}
+form input[type="text"],
+form input[type="button"] {
+    width: 100%;
+
+    box-sizing:border-box;
+
+    padding:12px;
+
+    border:1px solid lightgray;
+
+    border-radius:6px;
+
+    background-color:aliceblue;
+
+    font-size:15px;
+}
+form input[type="text"]:focus,
+form input[type="button"]:focus{
+    outline: none;
+    border-color: cadetblue;
+    background-color: white;
+}

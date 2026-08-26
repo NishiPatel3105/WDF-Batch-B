@@ -1,0 +1,30 @@
+body{
+    background-color: aliceblue;
+    text-align: center;
+    margin:0%;
+    font-family: Arial, sans-serif;
+    font-size: 10px;header{
+    background-color:lightsteelblue;
+    color: white;
+    padding: 20px;
+    text-align:center;
+    }
+header h1{
+    margin:0;
+    font-size:32px;
+}
+header p{
+    margin:6px 0 0;
+    font-size:14px;
+}
+nav{
+    background-color:lightblue;
+    text-align: center;
+    padding: 10px;
+}
+nav{
+    background-color: cadetblue;
+    text-align: center;
+    padding: 10px;
+}
+}
