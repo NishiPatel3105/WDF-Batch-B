@@ -1,0 +1,125 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: azure;
+    color: darkslategray;
+    margin: 0;
+}
+header{
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+    padding: 22px;
+}
+header h1{
+    margin: 0;
+    font-size: 32px;
+}
+nav{
+    background-color: midnightblue;
+    text-align: center;
+    padding: 14px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 6px;
+    font-size: 16px;
+}
+nav a:hover{
+    color: gold;
+}
+.container{
+    padding: 45px 20px;
+}
+.result-box{
+    background-color: white;
+    width: 650px;
+    margin: auto;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px lightgray;
+}
+.result-box h2{
+    text-align: center;
+    color: teal;
+    font-size: 30px;
+    margin-top: 0;
+}
+.intro{
+    text-align: center;
+    margin-bottom: 30px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th{
+    background-color: lightseagreen;
+    color: white;
+    padding: 15px;
+    border: 1px solid darkseagreen;
+    text-align: center;
+}
+td{
+    padding: 14px;
+    border: 1px solid lightgray;
+    text-align: center;
+    font-size: 16px;
+}
+tr:hover td{
+    background-color: paleturquoise;
+}
+.percentage{
+    background-color: lightcyan;
+    text-align: center;
+    margin-top: 25px;
+    padding: 12px;
+    border-radius: 7px;
+    border-left: 5px solid teal;
+}
+
+.percentage h3{
+    color: teal;
+    margin: 5px;
+    font-size: 21px;
+}
+.help-box{
+    width: 650px;
+    background-color: lightcyan;
+    text-align: center;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 10px;
+    border-top: 4px solid lightseagreen;
+}
+.help-box h3{
+    color: teal;
+    font-size: 22px;
+    margin-top: 0;
+}
+.help-box p{
+    font-size: 16px;
+}
+button{
+    background-color: teal;
+    color: white;
+    border: none;
+    padding: 11px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover{
+    background-color: lightseagreen;
+}
+footer {
+    background-color: midnightblue;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 25px;
+}
+
+footer p {
+    margin: 0;
+}

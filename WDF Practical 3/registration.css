@@ -1,0 +1,130 @@
+
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: aliceblue;
+    color: darkslategray;
+}
+header{
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1{
+    margin: 0;
+}
+
+header p{
+    margin: 5px;
+}
+nav{
+    background-color: steelblue;
+    text-align: center;
+    padding: 12px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 8px;
+}
+nav a:hover{
+    color: yellow;
+}
+
+nav span{
+    color: white;
+}
+.registration-area{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.registration-box{
+    background-color: white;
+    width: 500px;
+    padding: 30px;
+    border: 2px solid lightsteelblue;
+    border-radius: 10px;
+}
+.registration-box h2{
+    text-align: center;
+    color: steelblue;
+}
+.registration-box label{
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    color: darkslategray;
+}
+.registration-box input[type="text"],
+.registration-box input[type="email"],
+.registration-box input[type="password"],
+.registration-box select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.gender{
+    margin-top: 10px;
+}
+
+.gender label{
+    display: inline;
+    margin-right: 15px;
+}
+.terms{
+    margin-top: 15px;
+}
+
+.terms label{
+    display: inline;
+}
+.register-button{
+    background-color: steelblue;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.reset-button{
+    background-color: lightgray;
+    color: black;
+    border: none;
+    padding: 10px 25px;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.register-button:hover{
+    background-color: royalblue;
+}
+.reset-button:hover{
+    background-color: darkgray;
+}
+.login-link{
+    text-align: center;
+    margin-top: 20px;
+}
+.login-link a{
+    color: steelblue;
+    text-decoration: none;
+}
+.login-link a:hover{
+    color: royalblue;
+}
+footer{
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}

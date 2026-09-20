@@ -1,0 +1,98 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    color: darkslategray;
+    margin:0;
+}
+header{
+    background-color: steelblue;
+    color:white;
+    text-align:center;
+    padding:22px;
+}
+header h1{
+    margin:0;
+    font-size:32px;
+}
+nav{
+    background-color: midnightblue;
+    text-align:center;
+    padding:14px;
+    white-space:nowrap;
+    overflow-:auto;
+}
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 7px;
+    font-size:16px;
+}
+nav span{
+    color:white;
+}
+nav a:hover{
+    color:gold;
+}
+.container{
+    padding:45px 20px;
+}
+.course-box h2{
+    text-align:center;
+    color:darkslateblue;
+    font-size:30px;
+    margin-top:0;
+}
+.intro{
+    text-align:center;
+    font-size:16px;
+    margin-bottom:30px;
+}
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+th{
+    background-color: steelblue;
+    color:white;
+    padding:15px;
+    text-align:center;
+    font-size:16px;
+}
+td{
+    padding:14px;
+    border:1px solid lightgray;
+    text-align:center;
+}
+tr:hover td{
+    background-color:lightcyan;
+}
+.next-box h3{
+    color:darkslateblue;
+    font-size:22px;
+    margin-top:0;
+}
+.next-box p{
+    font-size:16px;
+}
+button{
+    background-color:steelblue;
+    color:white;
+    border:none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover{
+    background-color: royalblue;
+}
+footer{
+    background-color: midnightblue;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+footer p{
+    margin: 0;
+}

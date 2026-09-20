@@ -1,0 +1,201 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    color:darkslategray;
+    margin: 0%;
+}
+header{
+    background-color: steelblue;
+    color: white;
+    padding: 20px;
+    text-align:center;
+    
+}
+header h1{
+    margin:0;
+    font-size:32px;
+}
+header p{
+    margin:6px 0 0;
+    font-size:14px;
+}
+nav{
+    background-color: midnightblue;
+    text-align: center;
+    padding: 10px;
+}
+nav a{
+    color:white;
+    text-decoration:none;
+    margin: 10px;
+    font-size: 18px;
+}
+nav a:hover{
+    color:lightblue;
+}
+nav span{
+    color:white;
+    font-size:17px;
+}
+.welcome{
+    background-color: white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:60px;
+    padding:45px 20px;
+}
+.welcome.text{
+    width:430px;
+}
+.welcome-text h2{
+    color:steelblue;
+    font-size:17px;
+    line-height:1.6;
+}
+.welcome-image img{
+    width:300px;
+    height:190px;
+    object-fit:cover;
+    border:2px solid steelblue;
+    border-radius:12px;
+    box-shadow:0 4px 10p lightgray;
+}
+button{
+    background-color:steelblue;
+    color:white;
+    border:none;
+    padding:11px 22px;
+    font-size:15px;
+    cursor:pointer;
+
+}
+button:hover{
+    background-color:cadetblue;
+}
+section{
+    padding:35px 20px;
+    text-align:center;
+}
+section h2{
+    color: steelblue;
+
+    margin-bottom: 25px;
+}
+.highlights{
+    background-color: aliceblue;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: white;
+    width: 210px;
+    min-height: 150px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px lightgray;
+    transition: 0.3s;
+}
+.card:hover{
+    transform: translateY(-5px);
+}
+.card h3{
+    color: steelblue;
+    font-size: 17px;
+}
+.card p{
+    line-height: 1.5;
+    font-size: 14px;
+}
+.about{
+    background-color: lavender;
+}
+.about p{
+    max-width: 750px;
+    margin: 10px auto;
+    line-height: 1.7;
+    font-size: 16px;
+}
+.features-section{
+    background-color: aliceblue;
+}
+.features{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.features div{
+    background-color: white;
+    padding: 16px 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px lightgray;
+    min-width: 150px;
+}
+.features div:hover{
+    background-color: lightcyan;
+}
+.news{
+    background-color: white;
+}
+.news ul{
+    display: inline-block;
+    text-align: left;
+    line-height: 1.8;
+}
+.login-section{
+    background-color: lightcyan;
+}
+.login-section h2{
+    color: steelblue;
+}
+footer{
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+footer h3{
+    margin: 0;
+}
+footer p{
+    margin: 6px;
+}
+   header h1{
+        font-size: 30px;
+    }
+
+
+    nav a{
+        display: inline-block;
+        margin: 5px;
+        font-size: 14px;
+    }
+    nav span{
+        display: none;
+    }
+    .welcome{
+        flex-direction: column;
+        text-align: center;
+        gap: 25px;
+    }
+    .welcome-text{
+        width: 90%;
+    }
+    .welcome-text h2{
+        font-size: 27px;
+    }
+    .welcome-image img{
+        width: 220px;
+        height: 160px;
+    }
+    .card{
+        width: 80%;
+    }
+    .features div{
+        width: 75%;
+    }
