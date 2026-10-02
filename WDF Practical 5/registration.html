@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+    <h1>Student Registration Form</h1>
+
+    <form id="form" novalidate>
+
+        <label for="name">Full Name</label>
+        <input type="text" id="name" required>
+        <span id="nameError"></span>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" required>
+        <span id="emailError"></span>
+
+        <label for="mobile">Mobile Number</label>
+        <input type="tel" id="mobile" maxlength="10" required>
+        <span id="mobileError"></span>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" required>
+        <small id="strength">Password strength: </small>
+        <span id="passwordError"></span>
+
+        <label for="confirm">Confirm Password</label>
+        <input type="password" id="confirm" required>
+        <span id="confirmError"></span>
+
+        <label for="course">Course</label>
+        <select id="course" required>
+            <option value="">Select Course</option>
+            <option>B.Tech IT</option>
+            <option>Bsc</option>
+            <option>Msc</option>
+            <option>BE</option>
+            <option>BCA</option>
+            <option>MCA</option>
+        </select>
+        <span id="courseError"></span>
+
+        <label for="year">Year</label>
+        <select id="year" required>
+            <option value="">Select Year</option>
+            <option>First Year</option>
+            <option>Second Year</option>
+            <option>Third Year</option>
+            <option>Fourth Year</option>
+        </select>
+        <span id="yearError"></span>
+
+        <label>Gender</label>
+        <div>
+            <input type="radio" name="gender" value="Male"> Male
+            <input type="radio" name="gender" value="Female"> Female
+            <input type="radio" name="gender" value="Other"> Other
+        </div>
+        <span id="genderError"></span>
+
+        <label>
+            <input type="checkbox" id="terms">
+            I accept the Terms and Conditions
+        </label>
+        <span id="termsError"></span>
+
+        <button type="submit">Register</button>
+
+        <p id="success"></p>
+
+    </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+```

@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #eef3f8;
+}
+
+.container {
+    width: 450px;
+    max-width: 95%;
+    margin: 30px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #bbb;
+}
+
+h1 {
+    text-align: center;
+    color: #1d4ed8;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+input:focus,
+select:focus {
+    border-color: #1d4ed8;
+    outline: none;
+}
+
+span {
+    display: block;
+    color: red;
+    font-size: 13px;
+    margin-top: 3px;
+}
+
+button {
+    width: 100%;
+    padding: 11px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background: #1d4ed8;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #163ca5;
+}
+
+#strength {
+    display: block;
+    margin-top: 5px;
+}
+
+#success {
+    color: green;
+    text-align: center;
+    font-weight: bold;
+}
