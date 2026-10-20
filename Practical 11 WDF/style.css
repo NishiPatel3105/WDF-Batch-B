@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    background: aliceblue;
+    color: darkslategray;
+    margin: 0;
+    padding: 25px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 25px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px lightgray;
+}
+
+h1, h2 {
+    color: midnightblue;
+}
+
+.btn, button {
+    display: inline-block;
+    background: steelblue;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.secondary {
+    background: gray;
+}
+
+.search-form {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+input, select {
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid lightgray;
+    text-align: left;
+}
+
+th {
+    background: midnightblue;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: aliceblue;
+}
+
+.edit, .delete {
+    text-decoration: none;
+    padding: 6px 9px;
+    border-radius: 4px;
+    color: white;
+}
+
+.edit {
+    background: seagreen;
+}
+
+.delete {
+    background: firebrick;
+}
+
+.form-box {
+    max-width: 450px;
+    margin: 40px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px lightgray;
+}
+
+.form-box label {
+    display: block;
+    margin-top: 15px;
+}
+
+.form-box input, .form-box select {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+.form-box button {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.success {
+    color: darkgreen;
+    background: honeydew;
+    padding: 10px;
+}
+
+.error {
+    color: darkred;
+    background: mistyrose;
+    padding: 10px;
+}
+
+@media (max-width: 650px) {
+    body {
+        padding: 10px;
+    }
+
+    .container {
+        padding: 12px;
+        overflow-x: auto;
+    }
+
+    .search-form {
+        flex-direction: column;
+    }
+
+    table {
+        min-width: 600px;
+    }
+}
